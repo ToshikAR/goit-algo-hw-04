@@ -3,7 +3,7 @@
 що вводяться з клавіатури, та буде відповідати відповідно до введеної команди.
 
 '''
-from Task3.fun_contact import add_contact, change_contact, get_contact, all_contact
+from fun_contact import add_contact
 
 
 def parse_input(user_input):
@@ -32,7 +32,7 @@ def main():
         elif command == "phone":
             print(get_contact(args, contacts))
         elif command == "all":
-            print( all_contact(contacts))
+            print(all_contact(contacts))
         else:
             print("Invalid command.")
 
