@@ -12,8 +12,8 @@ def total_salary(path):
             while True:
                 text = file.readline()
                 if not text: break
-                id, name, age = text.split(",")
-                idict = {'id': id, 'name': name, 'age': age.strip()}
+                id, name, age = text.strip().split(",")
+                idict = {'id': id, 'name': name, 'age': age}
                 list.append(idict)
 
             return list
