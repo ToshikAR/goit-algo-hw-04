@@ -1,5 +1,5 @@
 '''
-Модуль оброботки контактов
+Модуль обробки контактів
 '''
 import re
 from colorama import Fore, Style
