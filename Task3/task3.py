@@ -39,8 +39,3 @@ if __name__ == "__main__":
     directory_path = sys.argv[1]
     print_dir_content(directory_path)
 
-
-    # "d:\\!Tosh\\!GoIT\\GoITPython\\PythonCore2\\PythonLessons\\goit-algo-hw-04\\Task3\\picture\\
-
-
-
