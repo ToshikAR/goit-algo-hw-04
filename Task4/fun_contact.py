@@ -55,7 +55,8 @@ def get_contact(args: list, contacts: dict) -> str:
         return f"'{name}' phon number {contacts[name]}"
     except Exception as e:
         return f"Error: {e}"
-    
+
+
 def all_contact(contacts: dict) -> str:
     if len(contacts) == 0: return f"Container is empty"
     return [f"{name}: {phone}" for name, phone in contacts.items()]

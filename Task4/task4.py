@@ -3,7 +3,7 @@
 що вводяться з клавіатури, та буде відповідати відповідно до введеної команди.
 
 '''
-from fun_contact import add_contact
+from fun_contact import add_contact,change_contact,get_contact,all_contact
 
 
 def parse_input(user_input):
